@@ -1,14 +1,14 @@
 # Configuration of the CI pipeline
 name: 'Google GKE'
-canonical: 'stack-gke'
-status: 'public'
+canonical: 'stack-gke-sdurrheimer'
+status: 'private'
 description: 'Used to deploy an Google Kubernetes Engine cluster with one or more node pools.'
 keywords:
   - 'kubernetes'
   - 'gke'
   - 'gcloud'
-author: 'Cycloid'
-image: 'https://raw.githubusercontent.com/cycloid-community-catalog/stack-gke/master/icon.png'
+author: 'sdurrheimer'
+image: 'https://raw.githubusercontent.com/sdurrheimer/stack-gke/master/icon.png'
 type: 'stack'
 technologies:
   - technology: Google Kubernetes Engine
